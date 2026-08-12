@@ -1,1 +1,73 @@
+body {
+    max-width: 100vw;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #FFF9E6; /* Creme claro no fundo */
+}
 
+header {
+    background-color: #800020; /* Vermelho Bordo */
+    color: #FFFDD0; /* Creme no texto */
+    text-align: center;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+main {
+    background-color: #FFFDD0; /* Creme */
+    color: #800020; /* Vermelho Bordo */
+    margin: 0 auto;
+    padding: 16px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    display: flex;
+
+    border: 2px solid #800020; /* Borda Vermelho Bordo */
+    border-radius: 8px;
+    background-color: #FFFFFF;
+
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+
+    flex: 1 1 25%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Imagens quadradas fixas em 80x80px */
+img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.artigo-autor {
+    font-weight: bold;
+}
+
+.artigo-fonte {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+button {
+    background-color: #800020;
+    color: #FFFDD0;
+    border: none;
+    padding: 6px 12px;
+    margin: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
